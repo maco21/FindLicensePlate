@@ -13,6 +13,7 @@ Targhe = [r'\D{2}\d{3}\D{2}',
 
 
 """
+from Andrew Clark on Reddit:
 You can use the character class [A-Z] to match any uppercase character,
 and [0-9] to match any digit. You can specify repetition using {m,n}, 
 which means "match the previous element between m and n times":
